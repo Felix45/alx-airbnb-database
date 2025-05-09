@@ -1,10 +1,25 @@
-# AirBnB Database Specification
-> This document outlines the essential entities, attributes, constraints, and relationships required for the effective operation of the Airbnb project. It also includes an Entity-Relationship Diagram (ERD) that visually represents the database structure and illustrates how the various entities are connected.
+# Airbnb Database Specification
+> This directory includes an SQL script designed to create the database schema. The script is present
+in `schema.sql` file.
 
+## How to create the database schema
+Clone the repository
+```
+  $ git clone git@github.com:Felix45/alx-airbnb-database.git
+```
 
-
-## Entity Relationship Diagram
-![](../db.png)
+Change directory to the schema file
+```
+  $ cd alx-airbnb-database/database-script-0x01
+```
+Connect to postgres database
+```
+  $ psql -U username -d your_database_name
+```
+Run the SQL script to create the schema
+```
+  $ \i schema.sql
+```
 
 ## Entities and Attributes
 ### User
