@@ -4,6 +4,8 @@
 This document explains the normalization process applied to the Airbnb project database schema to ensure it conforms to the Third Normal Form (3NF).
 
 ---
+## Revised database Schema
+![](./db.png)
 
 ## First Normal Form (1NF)
 
