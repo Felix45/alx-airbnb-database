@@ -1,4 +1,4 @@
-# AirBnB Database Specification
+# Airbnb Database Specification
 > This document outlines the essential entities, attributes, constraints, and relationships required for the effective operation of the Airbnb project. It also includes an Entity-Relationship Diagram (ERD) that visually represents the database structure and illustrates how the various entities are connected.
 
 
